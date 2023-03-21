@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.8rem;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to right top, lightblue, lightgreen);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  width: 50%;
+  min-height: auto;
+  background-color: bisque;
+  border-radius: 10px;
+  box-shadow: 0pc 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-text {
+  text-align: center;
+  margin: 5px 0px;
+}
+
+.sub-heading-text {
+  text-align: center;
+  font-size: 1rem;
+  margin: 5px 0px;
+}
+
+.result-text {
+  text-align: center;
+  margin: 0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.result-BMI {
+  text-align: center;
+  margin: 10px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.result-status-text {
+  text-align: center;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.view-recommend {
+  text-align: center;
+  font-size: 0.6rem;
+}
+
+.form-container {
+  width: 80%;
+  height: auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 0pc 4px 8px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.input-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+#age {
+  margin-left: 22px;
+}
+
+#age,
+#weight,
+#height {
+  width: 90%;
+}
+
+.button-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.btn-submit {
+  width: auto;
+  border: none;
+  padding: 10px 20px;
+  background-color: coral;
+  border-radius: 10px;
+  box-shadow: 0pc 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: not-allowed;
+}
+
+.btn-clear {
+  width: auto;
+  border: none;
+  padding: 10px 20px;
+  background-color: yellowgreen;
+  border-radius: 10px;
+  box-shadow: 0pc 4px 8px rgba(0, 0, 0, 0.3);
+  cursor: not-allowed;
+}
+
+.btn-clear:hover,
+.btn-submit:hover {
+  background-color: violet;
+  color: white;
+}
+
+.visibility {
+  display: none;
+}

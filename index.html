@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Kalkulator BMI by Ronaldgustavo.rg@Gmail.com</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <h1 class="heading-text">
+          <i class="fa-solid fa-calculator"></i> Kalkulator BMI
+        </h1>
+        <h1 class="sub-heading-text visibility">Result</h1>
+        <p class="result-text"></p>
+        <p class="result-BMI"></p>
+        <p class="result-status-text"></p>
+        <div class="view-recommend visibility">
+          <p><b> penyakit yang berasal dari kegemukan</b></p>
+          <p>Diabetes</p>
+          <p>Hipertensi</p>
+          <p>Sakit Jantung</p>
+          <p>Osteoarthritis</p>
+        </div>
+
+        <div class="form-container">
+          <form action="">
+            <!-- radio -->
+            <div class="input-form">
+              <p>
+                <input
+                  type="radio"
+                  name="gender"
+                  class="male"
+                  value="male"
+                  id="radio"
+                />Male
+              </p>
+              <p>
+                <input
+                  type="radio"
+                  name="gender"
+                  value="Female"
+                  id="radio"
+                  class="female"
+                />Female
+              </p>
+            </div>
+
+            <!-- weight -->
+            <div class="input-form">
+              <label for="weight">Weight</label>
+              <input
+                type="Number"
+                name="Weight"
+                id="weight"
+                placeholder="Weight"
+              />
+            </div>
+
+            <!-- height -->
+            <div class="input-form">
+              <label for="height">Height</label>
+              <input
+                type="Number"
+                name="height"
+                id="height"
+                placeholder="Height"
+              />
+            </div>
+
+            <!-- age -->
+            <div class="input-form">
+              <label for="age">Age</label>
+              <input type="Number" name="age" id="age" placeholder="Age" />
+            </div>
+
+            <div class="button-form">
+              <button
+                class="btn-submit"
+                type="button"
+                disabled
+                onclick="handleSubmit()"
+              >
+                Submit
+              </button>
+              <button
+                class="btn-clear"
+                type="button"
+                disabled
+                onclick="handleClear()"
+              >
+                Clear
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
