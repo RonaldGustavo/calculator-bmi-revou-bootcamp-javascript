@@ -8,4 +8,4 @@ Project for Software Engineer Mini Course at RevoU.
 
 Here is the UI:
 
-![UI Preview](https://github.com/RonaldGustavo/threejs-3D-animation/blob/master/src/assets/ui_view.png)
+![UI Preview](https://github.com/RonaldGustavo/calculator-bmi-revou-bootcamp-javascript/blob/main/assets/image.png)
